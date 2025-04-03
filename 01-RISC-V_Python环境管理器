@@ -34,7 +34,7 @@ RISC-V_Python环境管理器
   演示效果与表达：视频或文档清晰展示功能，能够讲清楚设计思路与亮点	10 分
 5. 参考资料
   可参考conda与mamba等
-  https://github.com/conda/conda
+- [conda](https://github.com/conda/conda)
   https://github.com/mamba-org/mamba
   https://blog.csdn.net/m0_37707561/article/details/121683048
 
