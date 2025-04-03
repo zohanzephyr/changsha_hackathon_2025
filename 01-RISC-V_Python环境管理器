@@ -1,9 +1,9 @@
 RISC-V_Python环境管理器
 
-1. 题目背景
+## **1. 题目背景**
   当前常用的 Python 管理工具 Conda 虽然可以在 RISC-V 架构上构建运行，但是其运行效率较低，需要大量时间解决依赖关系并且其软件仓库中并未有大量的RISC-V专用软件包。随着 RISC-V 硬件的发展，AI 等应用场景对 Python 虚拟环境的需求日益增长，因此亟需开发一款专为 RISC-V 平台设计的高效、稳定的 Python 虚拟环境管理器，以更好地支持其部署与运行需求。
 
-2. 任务要求
+## **2. 任务要求**
   2.1 基于RISC-V架构的openKylin系统，使用C/python/rust/go语言开发；
   2.2 实现一个Python 环境管理器，支持在 RISC-V 上创建、激活、停用、删除 Python 虚拟环境，能自动设置与隔离环境变量和路径配置；
   2.3 构建包管理器核心模块，兼容apt仓库结构，支持.deb格式的软件包安装与卸载，实现最基本的包依赖解析逻辑，能正确处理依赖关系；
@@ -37,3 +37,4 @@ RISC-V_Python环境管理器
   https://github.com/conda/conda
   https://github.com/mamba-org/mamba
   https://blog.csdn.net/m0_37707561/article/details/121683048
+
